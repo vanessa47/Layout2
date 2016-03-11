@@ -1,91 +1,113 @@
-body {
-  background: #141414;
-  color: white;
-  font-family: sans-serif;
-  margin-left: 30px;
+body{
+	background: #141414;
+	color: white;
+	font-family: sans-serif;
+	margin: 0px;
 }
 
-.name{
-  text-align: right;
+h1{
+	box-sizing: border-box;
+	margin: 15px;
 }
+
+h3{
+	box-sizing: border-box;
+	margin: 20px 15px 20px 15px;
+}
+
 .red{
-  background: #FF4330;
-  border: 1px solid black;
-  padding: 50px 75px 50px 75px;
+	background: #FF4330;
+  box-sizing: border-box;
+	text-align: center;
+	padding: 20px 55px;
+  margin: 15px;
+	width: 20%;
   float: left;
-  margin: 15px 15px 0px 0px;
 }
 
 .blue{
-  background: #00A6E2;
-  border: 1px solid black;
-  padding: 50px 75px 50px 75px;
-  float: left;
-  margin: 15px;
+	background: #00A3E4;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px 55px;
+	margin: 15px;
+	width: 20%;
+	float: left;
 }
 
 .orange{
-  background: #FE6D00;
-  border: 1px solid black;
-  padding: 50px 75px 50px 75px;
-  float: left;
-  margin: 15px;
+	background: #FF6E01;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px 55px;
+	margin: 15px;
+	width: 20%;
+	float: left;
 }
 
 .pink{
-  background: #E845E0;
-  border: 1px solid black;
-  padding: 50px 75px 50px 75px;
-  float: right;
-  margin: 15px 30px 0px 0px;
-  width: 20%;
-  height: 10%;
+	background: #E944DE;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 20px 55px;
+	margin: 15px 15px 15px 10px;
+	width: 20%;
+	float: left;
 }
 
 .left{
-  background: #222222;
-  border: 2px solid black;
-  padding: 0px 15px 0px 15px;
-  float: left;
-  margin: 0px;
-  width: 45%;
+	background: #222222;
+	border: 2px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 30px 15px 30px 15px;
+	width: 42%;
+	float: left;
 }
 
 .right{
-  background: #222222;
-  border: 2px solid black;
-  float: right;
-  margin: 0px 25px 0px 0px;
-  padding: 0px 15px 5px 13px;
-  width: 45%;
-  height: 95px;
+	background: #222222;
+	border: 2px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 30px 15px 30px 15px;
+	width: 42%;
+	float: left;
 }
 
-h4{
-  text-align: center;
-  margin-right: 225px;
-  float: right;
-}
 .downloads{
-  float: left;
-  text-align: left;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	float: left;
 }
 
 .support{
-  float: left;
-  text-align: left;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	float: left;
 }
 
 .categories{
-  float: left;
-  text-align: left;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	float: left;
 }
 
 .post{
-  float: right;
-  text-align: left;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 10px 25px;
+	padding: 10px 130px 10px 10px;
+	float: right;
 }
 
-.foot{
-  text-align: center;
+li{
+	box-sizing: border-box;
+	padding: 5px;
 }
